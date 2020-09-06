@@ -1,0 +1,40 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src/",
+    "rootDir": "src",
+    "downlevelIteration": true,
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "module": "ESNext",
+    "target": "ESNext",
+    "esModuleInterop": true,
+    "jsx": "preserve",
+    "experimentalDecorators": true,
+    "moduleResolution": "node",
+    "forceConsistentCasingInFileNames": false,
+    "noUnusedParameters": true,
+    "noUnusedLocals": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "strict": true,
+    "allowSyntheticDefaultImports": true,
+    "emitDecoratorMetadata": true,
+    "outDir": "./esm",
+    "declarationDir": "./types",
+    "declaration": true,
+    "sourceMap": true
+  },
+  "exclude": [
+    "lib",
+    "src/**/*.js",
+    "node_modules",
+    "example",
+    "jest",
+    "src/setupTests.ts",
+    "src/index.test.ts",
+    "src/array/index.test.ts"
+  ],
+  "include": [
+    "src"
+  ]
+}
