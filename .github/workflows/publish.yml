@@ -48,4 +48,5 @@ jobs:
           ALLOW_EMPTY_CHANGELOG: "false"
           ALLOW_TAG_PREFIX: "true"
         with:
-          args: react-hanger-clone-for-course-*.tgz
+          args: |
+            react-hanger-clone-for-course-*.tgz
