@@ -1,5 +1,6 @@
 import { useMemo } from 'react';
 import useBooleanArray, { UseBooleanActions } from './array/useBoolean';
+
 import { UseStateful } from './useStateful';
 
 export type UseBoolean = UseStateful<boolean> & UseBooleanActions;
