@@ -25,8 +25,7 @@
     "clean": "rimraf dist types",
     "build": "microbundle --no-compress --format cjs,es",
     "preversion": "npm run clean && npm run build && npm run test",
-    "version": "auto-changelog -p && git add CHANGELOG.md",
-    "postversion": "git push && git push --tags"
+    "version": "auto-changelog -p && git add CHANGELOG.md"
   },
   "peerDependencies": {
     "react": ">16.8.0",
