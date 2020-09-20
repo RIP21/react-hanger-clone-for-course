@@ -7,7 +7,6 @@ export type UseBoolean = UseStateful<boolean> & UseBooleanActions;
 
 export function useBoolean(initial: boolean): UseBoolean {
   const [value, actions] = useBooleanArray(initial);
-
   return useMemo(
     () => ({
       value,
