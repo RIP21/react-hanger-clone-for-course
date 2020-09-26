@@ -1,6 +1,6 @@
 {
   "name": "react-hanger-clone-for-course",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Set of a helpful hooks, for different specific to some primitives types state changing helpers",
   "author": "kitze",
   "license": "MIT",
