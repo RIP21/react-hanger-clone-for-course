@@ -1,6 +1,6 @@
 {
   "name": "react-hanger-clone-for-course",
-  "version": "0.0.4",
+  "version": "0.0.2",
   "description": "Set of a helpful hooks, for different specific to some primitives types state changing helpers",
   "author": "kitze",
   "license": "MIT",
@@ -25,7 +25,8 @@
     "clean": "rimraf dist types",
     "build": "microbundle --no-compress --format cjs,es",
     "preversion": "npm run clean && npm run build && npm run test",
-    "version": "auto-changelog -p && git add CHANGELOG.md"
+    "version": "auto-changelog -p && git add CHANGELOG.md",
+    "postversion": "git push && git push --tags"
   },
   "peerDependencies": {
     "react": ">16.8.0",
